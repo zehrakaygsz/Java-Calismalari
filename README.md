@@ -1,1 +1,61 @@
 # Java-Calismalari
+public class Demo {
+    public static void main(String[] args) {
+        int age = 19;
+        int year = 2026;
+        int quantity = 5;
+
+        double price = 19.99;
+        double gpa = 3.5;
+        double temperature = -12.5;
+
+        System.out.println("$ " + price);
+        System.out.println("GPA: " + gpa);
+        System.out.println("The weather is " + temperature + " degrees Celsius.");
+        System.out.println("you are age " + age + " years old.");
+        System.out.println("Your gpa is " + gpa);
+
+        char grade = 'A';
+        System.out.println("Your average letter grade is : " + grade);
+        char sysmbel = '!';
+        char currency = '$';
+
+        boolean isStudent = true;
+        boolean forSale = false;
+        boolean isOnline = true;
+
+        System.out.println(forSale);
+        System.out.println(isOnline);
+        System.out.println(isStudent);
+
+        if (isStudent == true) {
+            System.out.println("You are a student ");
+
+        } else {
+            System.out.println("You are not a student");
+        }
+        String name = " Zehra ";
+        String filmName = "Hamnet";
+        String food = " Pizza";
+        String city = " Canakkale";
+        String car = " Tesla";
+        String color = " red ";
+        System.out.println("Hello my name is " + name);
+        System.out.println("I like the film " + filmName);
+        System.out.println("Your favorite food is : " + food);
+        System.out.println("My favorite city is " + city);
+        System.out.println("I want to buy a " + car);
+
+        System.out.println("Your chose is a " + color + " " + year + " " + car);
+        System.out.println("The price is " + currency + price);
+
+    if(forSale == true){
+        System.out.println("There is a " + car + " for sale");
+
+    }
+    else {
+        System.out.println("There is no " + car + " for sale.");
+    }
+
+}
+}
