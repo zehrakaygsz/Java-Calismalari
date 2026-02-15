@@ -54,6 +54,8 @@ public class Demo {
     }
     else {
         System.out.println("There is no " + car + " for sale.");
+
+
     }
 
 }
