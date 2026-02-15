@@ -16,7 +16,7 @@ public class Demo {
 
         char grade = 'A';
         System.out.println("Your average letter grade is : " + grade);
-        char sysmbel = '!';
+        char symbol = '!';
         char currency = '$';
 
         boolean isStudent = true;
@@ -54,6 +54,8 @@ public class Demo {
     }
     else {
         System.out.println("There is no " + car + " for sale.");
+
+
     }
 
 }
