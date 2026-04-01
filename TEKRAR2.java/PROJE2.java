@@ -38,5 +38,28 @@ public class PROJE2 {
             System.out.println("başarıyla geçtiniz");
         else
             System.out.println("geçemediniz");
+
+        /*
+        public static void main(String[] args);
+        Random rnd=new Random();
+        Scanner giris=new Scanner(System.in);
+        int sayi,kasa;
+        Sayi=rnd.nextInt(9)+1;
+        sout(sayi);
+        kasa=sayi;
+        sout("kaç seefer daha sayı tutulsun?");
+        int secim=giris.nextInt();
+
+        for(int i=1;i<=secim;i++){
+        Sayi=rnd.nextInt(9)+1;
+        sout("sayi degeri="+sayi);
+        kasa+=sayi;
+
+        }sout("kasa degeri");
+        if(kasa<40&&kasa>=35)
+        sout("tebrikler kazandınız");
+        else
+            sout("üzgünüm kaybettiniz");
+        */
     }
 }
